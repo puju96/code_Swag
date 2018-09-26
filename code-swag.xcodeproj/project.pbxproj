@@ -17,6 +17,7 @@
 		84019074215B8DD70055D245 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84019073215B8DD70055D245 /* DataService.swift */; };
 		84019076215BA4E10055D245 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84019075215BA4E10055D245 /* ProductCell.swift */; };
 		84019078215BA86F0055D245 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84019077215BA86F0055D245 /* Product.swift */; };
+		8401907C215BB7160055D245 /* ProductVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8401907B215BB7160055D245 /* ProductVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		84019073215B8DD70055D245 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		84019075215BA4E10055D245 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
 		84019077215BA86F0055D245 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		8401907B215BB7160055D245 /* ProductVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				84019059215A4E310055D245 /* categoriesVC.swift */,
+				8401907B215BB7160055D245 /* ProductVC.swift */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 				84019058215A4E310055D245 /* AppDelegate.swift in Sources */,
 				8401906F215B7D420055D245 /* CategoryCell.swift in Sources */,
 				84019076215BA4E10055D245 /* ProductCell.swift in Sources */,
+				8401907C215BB7160055D245 /* ProductVC.swift in Sources */,
 				84019071215B8A9E0055D245 /* Category.swift in Sources */,
 				84019074215B8DD70055D245 /* DataService.swift in Sources */,
 				84019078215BA86F0055D245 /* Product.swift in Sources */,

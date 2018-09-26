@@ -80,17 +80,17 @@
                     <navigationItem key="navigationItem" title="CODER SWAG" id="CTO-PA-mzL"/>
                     <connections>
                         <outlet property="categoryTable" destination="vs1-wd-SbZ" id="dKB-Xd-y7L"/>
-                        <segue destination="fD2-Mb-LzX" kind="show" id="MzU-aP-B02"/>
+                        <segue destination="fD2-Mb-LzX" kind="show" identifier="ProductVC" id="MzU-aP-B02"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="992.79999999999995" y="-564.46776611694156"/>
         </scene>
-        <!--View Controller-->
+        <!--ProductVC-->
         <scene sceneID="Aix-ad-Lfi">
             <objects>
-                <viewController id="fD2-Mb-LzX" sceneMemberID="viewController">
+                <viewController id="fD2-Mb-LzX" customClass="ProductVC" customModule="code_swag" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aqh-YW-K3D">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -106,7 +106,7 @@
                             </label>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="fWl-Ki-tAR">
                                 <rect key="frame" x="0.0" y="154" width="375" height="513"/>
-                                <color key="backgroundColor" red="0.85826459390862941" green="0.85826459390862941" blue="0.85826459390862941" alpha="0.3008882705479452" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.8228703997461928" green="0.8228703997461928" blue="0.8228703997461928" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="mij-6e-JOy">
                                     <size key="itemSize" width="161" height="240"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -114,24 +114,24 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="N9f-CT-RWR" customClass="ProductCell" customModule="code_swag" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="productCell" id="N9f-CT-RWR" customClass="ProductCell" customModule="code_swag" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="161" height="240"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
                                             <rect key="frame" x="0.0" y="0.0" width="161" height="240"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="shirt01" translatesAutoresizingMaskIntoConstraints="NO" id="9Jd-4R-TAF">
-                                                    <rect key="frame" x="2" y="0.0" width="157" height="141"/>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="shirt01" translatesAutoresizingMaskIntoConstraints="NO" id="9Jd-4R-TAF">
+                                                    <rect key="frame" x="2" y="2" width="157" height="162"/>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Rs. 2400" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L6N-c2-b0A">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rs. 2400" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L6N-c2-b0A">
                                                     <rect key="frame" x="8" y="209" width="135" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Xlbyte logo shirt" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EGq-cL-iJq">
-                                                    <rect key="frame" x="8" y="161" width="145" height="42"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Xlbyte logo shirt" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EGq-cL-iJq">
+                                                    <rect key="frame" x="8" y="173" width="145" height="30"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="30" id="CBE-1Z-Loj"/>
                                                     </constraints>
@@ -166,7 +166,7 @@
                                 </cells>
                             </collectionView>
                         </subviews>
-                        <color key="backgroundColor" red="0.84103523298049676" green="0.8573253833504747" blue="0.87848984771573602" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.7774423102045388" green="0.7928910389068432" blue="0.81751665609137059" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="1qM-TR-Yaf" firstAttribute="leading" secondItem="5pn-zY-Wmj" secondAttribute="leading" constant="10" id="7Wb-jc-LyP"/>
@@ -178,6 +178,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="5pn-zY-Wmj"/>
                     </view>
+                    <connections>
+                        <outlet property="productCollection" destination="fWl-Ki-tAR" id="o1o-Le-G2Y"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2kh-wl-f4n" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -191,6 +194,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="fJq-5t-ogR">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="barTintColor" red="0.5" green="0.093517465966210078" blue="0.043985657372798914" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <textAttributes key="largeTitleTextAttributes">
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

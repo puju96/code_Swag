@@ -25,16 +25,20 @@ func getCategories() -> [Category] {
     private let shirtList = [
     Product(Title: "Xlbyte white shirt", Price: "Rs. 1200", ImageName: "shirt01.png"),
     Product(Title: "Xlbyte logo shirt", Price: "Rs. 1100", ImageName: "shirt02.png"),
+     Product(Title: "Xlbyte logo shirt", Price: "Rs. 1100", ImageName: "shirt03.png"),
+     Product(Title: "Xlbyte logo shirt", Price: "Rs. 1100", ImageName: "shirt04.png")
     ]
-    
     private let hoodiesList = [
-        Product(Title: "Xlbyte white shirt", Price: "Rs. 1200", ImageName: "hoodies01.png"),
-        Product(Title: "Xlbyte logo shirt", Price: "Rs. 1100", ImageName: "hoodies02.png"),
-        ]
+        Product(Title: "Xlbyte white shirt", Price: "Rs. 1200", ImageName: "hoodie01.png"),
+        Product(Title: "Xlbyte logo shirt", Price: "Rs. 1100", ImageName: "hoodie02.png"),
+        Product(Title: "Xlbyte logo shirt", Price: "Rs. 900", ImageName: "hoodie03.png"),
+        Product(Title: "Xlbyte logo shirt", Price: "Rs. 1800", ImageName: "hoodie04.png")       ]
     
     private let hatsList = [
         Product(Title: "Xlbyte white shirt", Price: "Rs. 1200", ImageName: "hat01.png"),
-        Product(Title: "Xlbyte logo shirt", Price: "Rs. 1100", ImageName: "hat02.png"),
+          Product(Title: "Xlbyte white shirt", Price: "Rs. 1210", ImageName: "hat02.png"),
+            Product(Title: "Xlbyte white shirt", Price: "Rs. 1100", ImageName: "hat03.png"),
+              Product(Title: "Xlbyte white shirt", Price: "Rs. 500", ImageName: "hat04.png")
         ]
     
 
